@@ -82,7 +82,9 @@ def create_argument_parser():
     parser.add_argument("--default_page_no", type=int, help="Default page number")
     parser.add_argument("--lang", type=str, help="Language")
     parser.add_argument("--use_selenium", type=bool, help="Use Selenium")
-
+    parser.add_argument("--do_xss", type=bool, help="Do XSS")
+    parser.add_argument("--do_sqli", type=bool, help="Do SQLi")
+    
     # [GithubDorking] section
     parser.add_argument("--do_dorking_github", type=bool, help="Do GitHub dorking")
 
@@ -153,6 +155,8 @@ def read_config(file_path):
         "default_page_no": config["GoogleDorking"].getint("default_page_no"),
         "lang": config["GoogleDorking"].get("lang"),
         "use_selenium": config["GoogleDorking"].getboolean("use_selenium"),
+        "do_xss": config["GoogleDorking"].getboolean("do_xss"),
+        "do_sqli": config["GoogleDorking"].getboolean("do_sqli"),
         # Github Dorking
         "do_dorking_github": config["GithubDorking"].getboolean("do_dorking_github"),
         # Github Dorking
@@ -202,7 +206,15 @@ def get_user_input(config_file="configs/config.ini"):
     Raises:
         FileNotFoundError: If the specified configuration file does not exist.
     """
-    config = read_config(config_file)
+    config = {}
+    if args.config:
+        config = read_config(args.config)
+    cli_args = vars(args)
+
+    # Override config settings with command-line arguments if provided
+    for key in cli_args:
+        if cli_args[key] is not None:
+            config[key] = cli_args[key]
 
     categories = []
 
@@ -210,7 +222,7 @@ def get_user_input(config_file="configs/config.ini"):
     setup_experiment_folder(config, categories)
 
     cprint(
-        f"-Extension: {config['extension']}\n-Total Output: {config['total_output']}\n-Page No: {config['page_no']}\n-Do Google Dorking: {config['do_dorking_google']}\n-Do Github Dorking {config['do_dorking_github']}\n-Do XSS: {config['do_xss']}\n-Do SQLi: {config['do_sqli']},\n -Domain: {config['subdomain']}\n-Use Proxy: {config['use_proxy']}",
+        f"-Extension: {config['extension']}\n-Total Output: {config['total_output']}\n-Page No: {config['page_no']}\n-Do Google Dorking: {config['do_dorking_google']}\n-Do Github Dorking {config['do_dorking_github']}\n-Domain: {config['subdomain']}\n-Use Proxy: {config['use_proxy']}",
         "blue",
         file=sys.stderr,
     )
@@ -351,6 +363,10 @@ def setup_csv(config, categories, folder_name):
     )
     if config["do_dorking_github"]:
         csv_headers.append("github_success")
+    if config["do_xss"]:
+        categories.append("xss")
+    if config["do_sqli"]:
+        categories.append("sqli")
     if (
         not os.path.exists(config["dorking_csv"])
         or os.path.getsize(config["dorking_csv"]) == 0
@@ -366,35 +382,20 @@ if __name__ == "__main__":
 
         # TODO add worker/master processes to handle multiple tasks and be faster
 
-        if len(sys.argv) >= 1:
-            # Create argument parser
-            parser = create_argument_parser()
+        # Create argument parser
+        parser = create_argument_parser()
 
-            # Parse command-line arguments
-            args = parser.parse_args()
+        # Parse command-line arguments
+        args = parser.parse_args()
 
-            (
-                config,
-                last_dork_id,
-                last_link_id,
-                last_attack_id,
-                categories,
-            ) = get_user_input(sys.argv[1])
-        elif len(sys.argv) == 1:
-            (
-                config,
-                last_dork_id,
-                last_link_id,
-                last_attack_id,
-                categories,
-            ) = get_user_input()
-        else:
-            cprint(
-                "Invalid number of arguments (./py [config_file_path])",
-                "red",
-                file=sys.stderr,
-            )
-            exit()
+        (
+            config,
+            last_dork_id,
+            last_link_id,
+            last_attack_id,
+            categories,
+        ) = get_user_input(args)
+        
 
         if config["do_dorking_google"]:
             cprint(

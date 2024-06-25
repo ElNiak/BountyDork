@@ -420,7 +420,7 @@ def launch_google_dorks_and_search_attack(config, categories):
         for category in categories:
             search_tasks[category] = []
             dork_files = glob.glob(
-                f"attacks/dorks/google/{category}/*.txt", recursive=True
+                f"dorks/google/{category}/*.txt", recursive=True
             )
             for dork_file in dork_files:
                 with open(dork_file, "r") as file:
