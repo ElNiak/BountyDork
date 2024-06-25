@@ -1,0 +1,107 @@
+/2wayvideochat/index.php?r=
+/Property-Cpanel.html?pid= /Property-Cpanel.html?pid=
+/elms/subscribe.php?course_id= /elms/subscribe.php?course_id=
+/gen_confirm.php?errmsg= /gen_confirm.php?errmsg=
+/hexjector.php?site= /hexjector.php?site=
+/index.php?option=com_easygb&Itemid=
+/index.php?view=help&amp;faq=1&amp;ref=
+/index.php?view=help&faq=1&ref=
+/info.asp?page=fullstory&amp;key=1&amp;news_type=news&amp;onvan=
+/info.asp?page=fullstory&key=1&news_type=news&onvan=
+/main.php?sid= 
+/news.php?id=
+/notice.php?msg= 
+/preaspjobboard//Employee/emp_login.asp?msg1=
+/schoolmv2/html/studentmain.php?session=
+/search.php?search_keywords= /search.php?search_keywords=
+/ser/parohija.php?id= 
+/showproperty.php?id= 
+/site_search.php?sfunction= /site_search.php?sfunction=
+/strane/pas.php?id= /strane/pas.php?id=
+/vehicle/buy_do_search/?order_direction=
+/view.php?PID= /view.php?PID=
+/winners.php?year=2008&amp;type= /winners.php?year=2008&amp;type=
+/winners.php?year=2008&type= /winners.php?year=2008&type=
+index.php?option=com_reservations&amp;task=askope&amp;nidser=2&amp;namser= "com_reservations"
+index.php?option=com_reservations&task=askope&nidser=2&namser= "com_reservations"
+intext:"Website by Mile High Creative"
+inurl:.com/search.asp
+inurl:/poll/default.asp?catid=
+inurl:/products/classified/headersearch.php?sid=
+inurl:/products/orkutclone/scrapbook.php?id=
+inurl:/search_results.php?search=
+inurl:/search_results.php?search=Search&amp;k=
+inurl:/search_results.php?search=Search&k=
+inurl:/­search_results.php?se­arch=
+inurl:com_feedpostold/feedpost.php?url=
+inurl:headersearch.php?sid=
+inurl:scrapbook.php?id=
+inurl:search.php?q=
+inurl:".php?author="
+inurl:".php?cat="
+inurl:".php?cmd="
+inurl:".php?feedback="
+inurl:".php?file="
+inurl:".php?from="
+inurl:".php?keyword="
+inurl:".php?mail="
+inurl:".php?max="
+inurl:".php?pass="
+inurl:".php?q="
+inurl:".php?query="
+inurl:".php?search="
+inurl:".php?searchstring="
+inurl:".php?searchst­ring="
+inurl:".php?tag="
+inurl:".php?txt="
+inurl:".php?vote="
+inurl:".php?years="
+inurl:".php?z="
+inurl:"contentPage.php?id="
+inurl:"displayResource.php?id="
+pages/match_report.php?mid= pages/match_report.php?mid=
+inurl:/search?query=
+inurl:/login?username=
+inurl:/signin?email=
+inurl:/register?fullname=
+inurl:/contact?message=
+inurl:/comment?text=
+inurl:/feedback?subject=
+inurl:/guestbook?message=
+inurl:/feedback?comment=
+inurl:/post?body=
+inurl:/search?q=
+inurl:/profile?username=
+inurl:/user?name=
+inurl:/about?content=
+inurl:/portfolio?project=
+inurl:/testimonial?feedback=
+filetype:js ""
+filetype:js "document.write('')"
+filetype:js "window.location.href='javascript:
+filetype:js "eval('')"
+filetype:html ""
+filetype:html "onload=
+filetype:html "onclick=
+filetype:html "onmouseover=
+inurl:/page?name=
+inurl:/search?query=
+inurl:/profile?id=
+inurl:/article?title=
+inurl:/post?id=
+inurl:/search?query=
+inurl:/view?item=
+inurl:/category?name=
+intext:"<form action" "<input type='text' onfocus=
+intext:"<form action" "<textarea onfocus='
+intext:"<form action" "<input type='password' onfocus=
+intext:"<form action" "<input type='email' onfocus=
+intext:"<form action" "<input type='url' onfocus=
+intext:"<form action" "<input type='tel' onfocus=
+intext:"<form action" "<input type='number' onfocus=
+intext:"<button onclick=
+intext:"<a href='#' onclick='
+intext:"<div onmouseover=
+intext:"<img src='x' onerror=
+intext:"<input type='text' onblur=
+intext:"<select onchange='

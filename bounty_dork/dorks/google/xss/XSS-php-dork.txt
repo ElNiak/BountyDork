@@ -1,0 +1,144 @@
+inurl:".php?cmd="
+inurl:".php?z="
+inurl:".php?q="
+inurl:".php?search="
+inurl:".php?query="
+inurl:".php?searchst­ring="
+inurl:".php?keyword=­"
+inurl:".php?file="
+inurl:".php?years="
+inurl:".php?txt="
+inurl:".php?tag="
+inurl:".php?max="
+inurl:".php?from="
+inurl:".php?author="
+inurl:".php?pass="
+inurl:".php?feedback­="
+inurl:".php?mail="
+inurl:".php?cat="
+inurl:".php?vote="
+inurl:search.php?q=
+inurl:com_feedpostol­d/feedpost.php?url=
+inurl:scrapbook.php?­id=
+inurl:headersearch.p­hp?sid=
+inurl:/poll/­default.asp?catid=
+inurl:/­search_results.php?se­arch=
+inurl:".php?cmd="
+inurl:".php?z="
+inurl:".php?q="
+inurl:".php?search="
+inurl:".php?query="
+inurl:".php?searchst­ring="
+inurl:".php?keyword=­"
+inurl:".php?file="
+inurl:".php?years="
+inurl:".php?txt="
+inurl:".php?tag="
+inurl:".php?max="
+inurl:".php?from="
+inurl:".php?author="
+inurl:".php?pass="
+inurl:".php?feedback­="
+inurl:".php?mail="
+inurl:".php?cat="
+inurl:".php?vote="
+inurl:search.php?q=
+inurl:com_feedpostol­d/feedpost.php?url=
+inurl:scrapbook.php?­id=
+inurl:headersearch.p­hp?sid=
+inurl:/poll/­default.asp?catid=
+inurl:/­search_results.php?se­arch=
+inurl:categoryId inurl:storeId (2 million results)
+inurl:resultCatEntryType
+inurl:searchTermScope
+inurl:"webapp/wcs"
+inurl:"ProductListingView"
+inurl:"AdvancedSearchDisplay"
+inurl:"CompareProductsDisplayView"
+inurl:parent_category_rn
+inurl:& inurl:test
+inurl:& inurl:quiz
+inurl:& inurl:survey
+inurl:& inurl:game
+inurl:& inurl:competition
+inurl:& inurl:form
+inurl:& inurl:title
+inurl:& inurl:search
+inurl:& inurl:city
+inurl:& inurl:date
+inurl:& inurl:topic
+inurl:& inurl:search inurl:q
+inurl:& inurl:search inurl:s
+index.php? inurl:&
+inurl:search
+inurl:suche
+inurl:page
+inurl:& inurl:query
+inurl:& inurl:suche
+inurl:& inurl:input
+inurl:& inurl:next
+inurl:& inurl:target
+inurl:search inurl:page
+inurl:search inurl:p
+inurl:query filetype:html inurl:page
+inurl:query filetype:html inurl:sort
+inurl:query filetype:php
+intext:"error in your SQL syntax" +site:il
+<p>    intext:"mysql_num_rows()" +site:il</
+p><p>    intext:"mysql_fetch_array()" +site:il</
+p><p>    intext:"Error Occurred While Processing
+Request" +site:il</p><p>    intext:"Server Error in
+'/' Application" +site:il</p><p>    intext:"Microsoft
+OLE DB Provider for ODBC Drivers error"
++site:il</p><p>    intext:"Invalid Querystring"
++site:il</p><p>    intext:"OLE DB Provider for
+ODBC" +site:il</p><p>    intext:"VBScript
+Runtime" +site:il</p><p>    intext:"ADODB.Field"
++site:il</p><p>    intext:"BOF or EOF" +site:il</
+p><p>    intext:"ADODB.Command" +site:il</
+p><p>    intext:"JET Database" +site:il</p><p>
+intext:"mysql_fetch_row()" +site:il</p><p>
+intext:"Syntax error" +site:il</p><p>
+intext:"include()" +site:il  </p><p>
+intext:"mysql_fetch_assoc()" +site:il</p><p>
+intext:"mysql_fetch_object()" +site:il</p><p>
+intext:"mysql_numrows()" +site:il</p><p>
+intext:"GetArray()" +site:il</p><p>
+intext:"FetchRow()" +site:il</p>    intext:"Input
+site:.il inurl:news?id=
+site:.il inurl:viewshowdetail.php?id=
+site:.il inurl:clubpage.php?id=
+site:.il inurl:memberInfo.php?id=
+site:.il inurl:section.php?id=
+site:.il inurl:theme.php?id=
+site:.il inurl:page.php?id=
+site:.il inurl:shredder-categories.php?id=
+site:.il inurl:tradeCategory.php?id=
+site:.il inurl:product_ranges_view.php?ID=
+site:.il inurl:shop_category.php?id=
+site:.il inurl:transcript.php?id=
+inurl:".php?cmd="
+inurl:".php?z="
+inurl:".php?q="
+inurl:".php?search="
+inurl:".php?query="
+inurl:".php?searchstring="
+inurl:".php?keyword="
+inurl:".php?file="
+inurl:".php?years="
+inurl:".php?txt="
+inurl:".php?tag="
+inurl:".php?max="
+inurl:".php?from="
+inurl:".php?author="
+inurl:".php?pass="
+inurl:".php?feedback="
+inurl:".php?mail="
+inurl:".php?cat="
+inurl:".php?vote="
+inurl:search.php?q=
+inurl:com_feedpostold/feedpost.php?url=
+inurl:scrapbook.php?id=
+inurl:headersearch.php?sid=
+inurl:/poll/default.asp?catid=
+inurl:/search_results.php?search=

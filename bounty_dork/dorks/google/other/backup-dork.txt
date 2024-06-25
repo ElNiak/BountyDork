@@ -1,0 +1,7 @@
+intitle:"index of" "backup" -github.com
+intitle:"index of" "backups" -github.com
+inurl:"/backup/" -github.com
+inurl:"/backup" -github.com
+intext:"backup.sql" -github.com
+intext:"backup.zip" -github.com
+inurl:"/backup" filetype:zip -github.com

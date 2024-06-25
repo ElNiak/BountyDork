@@ -1,0 +1,15 @@
+api-*.netflix.com
+api.netflix.com 
+*.prod.ftl.netflix.com
+*.prod.cloud.netflix.com
+*.prod.dradis.netflix.com
+www.netflix.com
+Secure.netflix.com
+ichnaea.netflix.com
+beacon.netflix.com
+*.nflxvideo.net
+*.nflxext.com
+*.nflximg.net
+*.nflxso.net
+help.netflix.com
+meechum.netflix.com

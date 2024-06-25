@@ -1,0 +1,7 @@
+intext:"API_KEY" -github.com
+inurl:"api/v1" -github.com
+inurl:"swagger.json" -github.com
+inurl:"/graphql" -github.com
+inurl:"/api-docs" -github.com
+inurl:"/api/v2" -github.com
+inurl:"/api/v3" -github.com

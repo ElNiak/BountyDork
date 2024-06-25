@@ -1,0 +1,4 @@
+att.com/msapi
+att.com/buy/
+att.com/acctmgmt/
+myattwg.att.com/olam/ 

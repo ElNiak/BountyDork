@@ -1,0 +1,7 @@
+university-staging.dynatracelabs.com
+sso-sprint.dynatracelabs.com
+account-sprint.dynatracelabs.com
+*.sprint.dynatracelabs.com
+*.sprint.apps.dynatracelabs.com
+myaccount-hardening.dynatracelabs.com
+www.dynatrace.com

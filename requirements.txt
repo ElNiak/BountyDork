@@ -1,0 +1,17 @@
+terminal_banner
+termcolor
+tqdm
+selenium
+webdriver_manager
+eventlet
+free-proxy
+selenium-wire
+SpeechRecognition==3.8.1
+pydub
+bs4
+psutil
+random_user_agent
+tbb
+types-tqdm
+types-psutil
+types-beautifulsoup4

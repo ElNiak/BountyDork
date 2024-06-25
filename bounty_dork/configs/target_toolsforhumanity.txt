@@ -1,0 +1,10 @@
+*.worldcoin.org
+*.consumer.worldcoin.org
+toolsforhumanity.com
+getworldcoin.com
+*.worldcoin-distributors.com
+bioid-management.app
+*.worldcoin.dev
+worldcoin.org
+*.toolsforhumanity.com
+support.worldcoin.com

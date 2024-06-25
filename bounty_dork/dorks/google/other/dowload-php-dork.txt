@@ -1,0 +1,82 @@
+inurl:download.php?file=
+inurl:download.php?name=
+inurl:download.php?filename=
+inurl:download.php?download=
+inurl:download.php?file_id=
+inurl:download.php?file_name=
+inurl:download.php?filepath=
+inurl:download.php?resource=
+inurl:download.php?item=
+inurl:download.php?attachment=
+inurl:download.php?doc=
+inurl:download.php?type=
+inurl:download.php?link=
+inurl:download.php?url=
+inurl:download.php?target=
+inurl:download.php?source=
+inurl:download.php?content=
+inurl:download.php?document=
+inurl:download.php?data=
+inurl:download.php?product=
+inurl:download.php?code=
+inurl:download.php?key=
+inurl:download.php?source_file=
+inurl:download.php?output=
+inurl:download.php?resource_path=
+inurl:download.php?target_file=
+inurl:download.php?resource_url=
+inurl:download.php?file_path=
+inurl:download.php?file_url=
+inurl:download.php?attachment_id=
+inurl:download.php?file_location=
+inurl:download.php?file_path=
+
+inurl:download.php?file=
+intitle:"Index of /" inurl:download.php
+intitle:"Download" inurl:download.php
+intitle:"Download File" inurl:download.php
+intitle:"File Download" inurl:download.php
+intitle:"Download Page" inurl:download.php
+intitle:"Download Link" inurl:download.php
+intitle:"Download Resource" inurl:download.php
+intitle:"Download Center" inurl:download.php
+intitle:"Download Manager" inurl:download.php
+intitle:"Download Script" inurl:download.php
+intitle:"File URL" inurl:download.php
+intitle:"File Path" inurl:download.php
+intitle:"Direct Download" inurl:download.php
+intitle:"Downloadable File" inurl:download.php
+intitle:"File Repository" inurl:download.php
+intitle:"File Hosting" inurl:download.php
+intitle:"File Distribution" inurl:download.php
+intitle:"Downloadable Resource" inurl:download.php
+
+inurl:"/downloads/download.php?file="
+inurl:"/files/download.php?name="
+inurl:"/file/download.php?filename="
+inurl:"/dl/download.php?file="
+inurl:"/dl/download.php?name="
+inurl:"/dl/download.php?filename="
+inurl:"/getfile/download.php?file="
+inurl:"/getfile/download.php?name="
+inurl:"/getfile/download.php?filename="
+inurl:"/download-files/download.php?file="
+inurl:"/download-files/download.php?name="
+inurl:"/download-files/download.php?filename="
+inurl:"/download-resource/download.php?file="
+inurl:"/download-resource/download.php?name="
+inurl:"/download-resource/download.php?filename="
+inurl:"/file-download/download.php?file="
+inurl:"/file-download/download.php?name="
+inurl:"/file-download/download.php?filename="
+inurl:"/content-download/download.php?file="
+inurl:"/content-download/download.php?name="
+inurl:"/content-download/download.php?filename="
+inurl:"/resource-download/download.php?file="
+inurl:"/resource-download/download.php?name="
+inurl:"/resource-download/download.php?filename="
+inurl:"/download-link/download.php?url="
+inurl:"/download-link/download.php?link="
+inurl:"/download-link/download.php?source="
+inurl:"/download-link/download.php?content="
+inurl:"/download-link/download.php?document="

@@ -1,0 +1,29 @@
+intext:"error_reporting(E_ALL)" intitle:"phpinfo()" -github.com
+intext:"sql_query" inurl:"admin.php" -github.com
+inurl:"config.inc.php" OR inurl:"config/config.ini.php" OR inurl:"config/config.php" -github.com
+intitle:"index of" intext:"wp-config.php" -github.com
+inurl:"upload.php" intext:"File Upload" -github.com
+inurl:"error_log" intext:"PHP Error logs" -github.com
+inurl:"login.php" intext:"Login Page" -github.com
+inurl:"login.html" intext:"Admin Login" -github.com
+intitle:"Login" inurl:"admin" -github.com
+intitle:"Sign In" inurl:"admin" -github.com
+intitle:"Member Login" -github.com
+intitle:"User Login" -github.com
+intitle:"Staff Login" -github.com
+filetype:php intext:"DB_PASSWORD" -github.com
+filetype:php intext:"DB_HOST" -github.com
+filetype:php intext:"DB_USER" -github.com
+filetype:php intext:"DB_NAME" -github.com
+filetype:sql intext:username password
+filetype:sql "insert into" (pass|passwd|password)
+filetype:sql "values" "username" "password"
+filetype:sql "VALUES" "username" "password"
+filetype:sql "CREATE USER" username identified by password
+filetype:sql "CREATE USER" username identified by "password"
+filetype:sql "CREATE USER" username identified by 'password'
+filetype:sql "CREATE USER" username identified by PASSWORD
+filetype:sql "GRANT ALL PRIVILEGES" ON database.* TO "username"@"%"
+filetype:sql "GRANT ALL PRIVILEGES" ON database.* TO "username"@"localhost"
+filetype:sql "GRANT ALL PRIVILEGES" ON *.* TO "username"@"%"
+filetype:sql "GRANT ALL PRIVILEGES" ON *.* TO "username"@"localhost"

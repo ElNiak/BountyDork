@@ -1,0 +1,8 @@
+inurl:categoryId inurl:storeId
+inurl:resultCatEntryType
+inurl:searchTermScope
+inurl:"webapp/wcs"
+inurl:"ProductListingView"
+inurl:"AdvancedSearchDisplay"
+inurl:"CompareProductsDisplayView"
+inurl:parent_category_rn
