@@ -1,4 +1,5 @@
 # /usr/bin/python3
+import argparse
 import sys
 
 # TO get stacktrace in case of segfault
@@ -45,6 +46,80 @@ os.system("clear")
 #########################################################################################
 
 
+def create_argument_parser():
+    """
+    Creates an argument parser for command-line arguments.
+    
+    Returns:
+    - parser: the argument parser
+    """
+    parser = argparse.ArgumentParser(description="Configuration and Argument Parser")
+
+    parser.add_argument("--config", type=str, required=True, help="Path to the configuration file")
+
+    # [Settings] section
+    parser.add_argument("--extension", type=str, help="Extension")
+    parser.add_argument("--subdomain", type=bool, help="Use subdomain")
+    parser.add_argument("--do_web_scap", type=bool, help="Do web scraping")
+    parser.add_argument("--target_file", type=str, help="Target file")
+    parser.add_argument("--exclusion_file", type=str, help="Exclusion file")
+    parser.add_argument("--target_login", type=str, nargs='*', help="Target login")
+    parser.add_argument("--logging", type=str, help="Logging level")
+    parser.add_argument("--max_thread", type=int, help="Maximum number of threads")
+    parser.add_argument("--runtime_save", type=bool, help="Runtime save")
+    parser.add_argument("--keyboard_interrupt_save", type=bool, help="Keyboard interrupt save")
+
+    # [Bounty] section
+    parser.add_argument("--need_specific_user_agent", type=bool, help="Need specific user agent")
+    parser.add_argument("--target_user_agent", type=str, help="Target user agent")
+    parser.add_argument("--hackerone_username", type=str, help="HackerOne username")
+
+    # [GoogleDorking] section
+    parser.add_argument("--do_dorking_google", type=bool, help="Do Google dorking")
+    parser.add_argument("--total_output", type=int, help="Total output")
+    parser.add_argument("--page_no", type=int, help="Page number")
+    parser.add_argument("--default_total_output", type=int, help="Default total output")
+    parser.add_argument("--default_page_no", type=int, help="Default page number")
+    parser.add_argument("--lang", type=str, help="Language")
+    parser.add_argument("--use_selenium", type=bool, help="Use Selenium")
+
+    # [GithubDorking] section
+    parser.add_argument("--do_dorking_github", type=bool, help="Do GitHub dorking")
+
+    # [ShodanDorking] section
+    parser.add_argument("--do_dorking_shodan", type=bool, help="Do Shodan dorking")
+
+    # [Proxy] section
+    parser.add_argument("--use_proxy", type=bool, help="Use proxy")
+    parser.add_argument("--use_free_proxy_file", type=bool, help="Use free proxy file")
+    parser.add_argument("--use_free_proxy", type=bool, help="Use free proxy")
+    parser.add_argument("--use_nordvpn_proxy", type=bool, help="Use NordVPN proxy")
+    parser.add_argument("--proxies", type=str, nargs='*', help="Proxies")
+    parser.add_argument("--proxy_mean_delay", type=int, help="Proxy mean delay")
+    parser.add_argument("--proxy_factor", type=int, help="Proxy factor")
+
+    # [VPN] section
+    parser.add_argument("--use_vpn", type=bool, help="Use VPN")
+    parser.add_argument("--use_nordvpn", type=bool, help="Use NordVPN")
+    parser.add_argument("--nord_vpn_login", type=str, nargs='*', help="NordVPN login")
+
+    # [Tor] section
+    parser.add_argument("--use_tor", type=bool, help="Use Tor")
+
+    # [Delay] section
+    parser.add_argument("--initial_delay", type=int, help="Initial delay")
+    parser.add_argument("--delay_factor", type=int, help="Delay factor")
+    parser.add_argument("--long_delay", type=int, help="Long delay")
+    parser.add_argument("--max_delay", type=int, help="Max delay")
+    parser.add_argument("--request_delay", type=int, help="Request delay")
+    parser.add_argument("--waf_delay", type=int, help="WAF delay")
+
+    # [Rate] section
+    parser.add_argument("--rate_per_minute", type=int, help="Rate per minute")
+    parser.add_argument("--current_delay", type=int, help="Current delay")
+
+    return parser
+    
 def read_config(file_path):
     """
     Reads the configuration file and returns the settings as a dictionary.
@@ -291,7 +366,13 @@ if __name__ == "__main__":
 
         # TODO add worker/master processes to handle multiple tasks and be faster
 
-        if len(sys.argv) == 2:
+        if len(sys.argv) >= 1:
+            # Create argument parser
+            parser = create_argument_parser()
+
+            # Parse command-line arguments
+            args = parser.parse_args()
+
             (
                 config,
                 last_dork_id,

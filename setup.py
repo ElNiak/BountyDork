@@ -13,6 +13,7 @@ setup(
     maintainer='ElNiak',
     maintainer_email='christophe.crochet@uclouvain.be',
     packages=find_packages(),
+    package_data={'': ['bounty_dork/dorks/google/*.txt', 'bounty_dork/vpn_proxies/proxies/*.txt']},
     zip_safe=False,
     classifiers=[
         'Intended Audience :: Developers',

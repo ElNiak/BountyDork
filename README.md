@@ -8,15 +8,21 @@
 
 BountyDork is a comprehensive tool designed for penetration testers and cybersecurity researchers. It integrates various modules for performing attacks, reporting, and managing VPN/proxy settings, making it an indispensable asset for any security professional.
 
+
 ## Features:
 - **Automation**: Automate the process of finding vulnerabilities.
 - **Dorking**:  
-    - Automate Google dorking
+    - Automate Google dorking - `bounty_dork/dorks/google/<dorks>.txt`
 - **No need of API**: No need for API keys.
 - **Reporting**: Generate detailed reports of findings.
 - **Selenium**: Automate the process of finding vulnerabilities.
 - **reCAPTCHA**: Automatically solve reCAPTCHA challenges.
 - **VPN/Proxies Management**: Seamlessly switch between different VPN services and proxies to anonymize your activities.
+    - NordVPN - Create file `bounty_dork/vpn_proxies/proxies/nordvpn_login.csv` with `username,password` format.
+    ```csv
+username,password
+AAAAAAAA,BBBBBBBB
+    ```
 - **Pause/Resume**: Pause and resume the dorking process at any time.
 
 ### Congiguration files
@@ -29,6 +35,7 @@ BountyDork is a comprehensive tool designed for penetration testers and cybersec
 extension = 
 subdomain = true
 do_web_scap = true
+dorks = bounty_dork/dorks/google/ ; TODO enforce
 target_file = configs/target_toolsforhumanity.txt
 exclusion_file = configs/exclusion_pornbox.txt
 target_login = []
@@ -103,6 +110,23 @@ current_delay = 60
 - **Tor**:  
     - Automate Tor connection
     - Automate Tor disconnection
+
+## Usage:
+
+```bash
+python3 bounty_dork.py -h
+
+```
+
+OR
+
+
+```bash
+python3 bounty_dork.py <config_file>
+
+
+
+```
 
 ## Python
 
