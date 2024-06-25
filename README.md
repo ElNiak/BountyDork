@@ -18,11 +18,14 @@ BountyDork is a comprehensive tool designed for penetration testers and cybersec
 - **Selenium**: Automate the process of finding vulnerabilities.
 - **reCAPTCHA**: Automatically solve reCAPTCHA challenges.
 - **VPN/Proxies Management**: Seamlessly switch between different VPN services and proxies to anonymize your activities.
+    
     - NordVPN - Create file `bounty_dork/vpn_proxies/proxies/nordvpn_login.csv` with `username,password` format.
-    ```csv
+
+```csv
 username,password
 AAAAAAAA,BBBBBBBB
-    ```
+```
+
 - **Pause/Resume**: Pause and resume the dorking process at any time.
 - **Pypy3 Support**: Use pypy3 to speed up the execution of the tool.
 

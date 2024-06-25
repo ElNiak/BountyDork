@@ -5,10 +5,13 @@ potential*.txt
 __pycache__/
 nordvpn_login.csv
 nordvpn_login_token.csv
-bounty_drive/outputs/reports/*
-bounty_drive/outputs/html_google_todo/*.html
+bounty_dork/outputs/reports/*
+bounty_dork/outputs/html_google_todo/*.html
 pypy3-venv/*
 python3-venv/*
 .VSCodeCounter/*
 .mypy_cache/*-
 .mypy_cache
+dist/*
+build/*
+bounty_dork.egg-info/*

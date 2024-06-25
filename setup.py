@@ -10,6 +10,7 @@ setup(
     include_package_data=True,
     author='ElNiak',
     author_email='christophe.crochet@uclouvain.be',
+    long_description_content_type='text/markdown',
     maintainer='ElNiak',
     maintainer_email='christophe.crochet@uclouvain.be',
     packages=find_packages(),
@@ -18,6 +19,6 @@ setup(
     classifiers=[
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 3.6',
-        'Topic :: Software Development, Dorking, Bug Bounty, Google :: Libraries :: Python Modules',
+        'Topic :: Software Development :: Libraries :: Python Modules',
     ],
 )
